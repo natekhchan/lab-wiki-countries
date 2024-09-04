@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-size: 30px;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+    color: inherit; /* This keeps the text color the same as the surrounding text */
+}
+  
+.no-text-decoration:hover {
+    color: inherit; /* Ensures the color doesn't change on hover */
+}
+
+/* Remove bullet points from the list */
+.border-list {
+    list-style-type: none !important;
+    padding-left: 0;
+    text-decoration: underline;
+}
+
+/* Style links for bordering countries */
+.border-link {
+    text-decoration: none;
+    color: blue; /* Makes the links blue */
+}
+
+.border-link:hover {
+    text-decoration: underline; /* Optional: underline the link when hovered */
+}
